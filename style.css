@@ -1,0 +1,54 @@
+.div1 {
+    font-size: 50px;
+    color: cadetblue;
+    padding: 60px 0px;
+    text-align: start;
+    background-color: green;
+}
+
+
+/* media quries */
+
+.images {
+    display: flex;
+}
+
+.div2 {
+    display: flex;
+}
+
+#p1 {
+    background-color: yellow;
+}
+
+#p2 {
+    background-color: gainsboro
+}
+
+@media only screen and (max-width:992px) {
+    .div1 {
+        background-color: blue;
+    }
+    .div2 {
+        display: block;
+    }
+    .images {
+        display: block;
+    }
+    .images img {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width:768px) {
+    .div1 {
+        background-color: gold;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .div1 {
+        background-color: greenyellow;
+    }
+}
